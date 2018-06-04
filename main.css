@@ -1,1 +1,26 @@
 /* TODO: Create appropriate CSS for the website */
+header {
+  width: 100%;
+  justify-content: space-between;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.half{
+  width: 50%;
+}
+
+.left {
+}
+
+.right {
+  text-align: right;
+}
+
+.light-blue {
+  color: #7d97ad
+}
