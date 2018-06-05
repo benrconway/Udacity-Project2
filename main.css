@@ -35,16 +35,12 @@ hr {
   width: 50%;
 }
 
-.left {
-
-}
-
 .light-blue {
   color: #7d97ad;
 }
 
 .links {
-  margin: 45%;
+  margin: 40%;
 }
 
 .logo {
@@ -61,8 +57,8 @@ hr {
 }
 
 .tile {
-  width: 50px;
-  height: 50px;
+  height: 140px;
+  padding-left: 40px;
 }
 
 .title {
