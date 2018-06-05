@@ -4,11 +4,19 @@ header {
   justify-content: space-between;
 }
 
-body {
-  display: flex;
+html {
+  display: inline-flex;
   flex-wrap: wrap;
 }
 
+#main {
+  width: 100%;
+  height: 300px;
+}
+
+.container {
+  width: 100%;
+}
 
 .half{
   width: 50%;
@@ -21,6 +29,14 @@ body {
   text-align: right;
 }
 
+.third {
+  width: 33.33%;
+}
+
 .light-blue {
   color: #7d97ad
+}
+
+.tile {
+
 }
