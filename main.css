@@ -1,19 +1,25 @@
 /* TODO: Create appropriate CSS for the website */
-header {
-  width: 100%;
-  justify-content: space-between;
+body, header, section, footer {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-html {
-  display: inline-flex;
-  flex-wrap: wrap;
+body {
+  margin-left: auto;
+  margin-right: auto;
+}
+hr {
+  width: 100%;
 }
 
 #main {
   width: 100%;
   height: 300px;
 }
-
+.banner {
+  width: 100%;
+}
 .container {
   width: 100%;
 }
@@ -23,6 +29,11 @@ html {
 }
 
 .left {
+
+}
+
+.light-blue {
+  color: #7d97ad;
 }
 
 .right {
@@ -33,10 +44,11 @@ html {
   width: 33.33%;
 }
 
-.light-blue {
-  color: #7d97ad
+.tile {
+  width: 50px;
+  height: 50px;
 }
 
-.tile {
-
+.title {
+  color: #7d97ad;
 }
