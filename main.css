@@ -1,6 +1,6 @@
 /* TODO: Create appropriate CSS for the website */
 body, header, section, footer {
-  width: 900px;
+  width: 800px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -45,6 +45,11 @@ hr {
 
 .links {
   margin: 45%;
+}
+
+.logo {
+  height: 100px;
+  padding-top: 30px;
 }
 
 .right {
