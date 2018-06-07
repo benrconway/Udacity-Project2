@@ -1,19 +1,13 @@
-/* TODO: Create responsive CSS for the website */
-/* body, header, section, footer {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px;
-} */
+/* General Styling is organised as HTML, IDs, Classes.
+  Within those they are generally arranged by alphabetical order */
 
 body, html {
   margin: 0;
   padding: 0;
-  width: 100%;
   height: 100%;
 }
 
-header, body footer, section, div {
+ html, body, header, footer, section, div {
   box-sizing: border-box;
   width: 100%;
 }
@@ -22,20 +16,28 @@ header {
   border-bottom: 2px solid #7d97ad;
 }
 
+/* IDs */
+
 #main {
   width: 100%;
 }
 
 #page-logo {
-  width: 33.3%
+  width: 33.3%;
 }
 
 #page-title {
   width: 66%;
 }
 
+/* Classes */
+
 .banner {
   width: 100%;
+}
+
+.copyright{
+  font-size: 10px;
 }
 
 .content {
@@ -45,10 +47,6 @@ header {
 
 .container {
   width: 100%;
-}
-
-.copyright{
-  font-size: 10px;
 }
 
 .light-blue {
@@ -86,7 +84,7 @@ header {
   }
 
   .job {
-    font-size: 1.4em
+    font-size: 1.4em;
   }
 
   .logo {
@@ -119,7 +117,6 @@ header {
   .right {
     padding-right: 15px;
   }
-
 }
 
 /* Minor Breakpoints */
@@ -140,9 +137,9 @@ header {
 /* 3) Desktop */
 @media screen and (min-width: 800px){
   body {
-      width: 800px;
-      margin-left: auto;
-      margin-right: auto;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #main {
@@ -162,5 +159,4 @@ header {
   .links {
     margin: 40%;
   }
-
 }
