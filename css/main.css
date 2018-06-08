@@ -1,12 +1,19 @@
 /* General Styling is organised as HTML, IDs, Classes.
   Within those they are generally arranged by alphabetical order */
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
 }
 
- html, body, header, footer, section, div {
+
+ body,
+ div,
+ footer,
+ header,
+ html,
+ section {
   box-sizing: border-box;
   width: 100%;
 }
@@ -134,7 +141,7 @@ header {
 
 
 /* 3) Desktop */
-@media screen and (min-width: 800px){
+@media screen and (min-width: 810px){
   body {
     width: 800px;
     margin-left: auto;
@@ -142,13 +149,7 @@ header {
   }
 
   #main {
-    height: 400px;
-  }
-
-  .third {
-    width: 32%;
-    margin: 5px;
-    padding: 0px;
+    height: 450px;
   }
 
   .logo {
